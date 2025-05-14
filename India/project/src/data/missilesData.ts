@@ -355,20 +355,7 @@ export const missilesData: MissileData[] = [
     developedBy: "Lockheed Martin", 
     notes: "Primarily anti-armor missile." 
   },
-  
   // Surface-to-Surface Missiles
-  { 
-    name: "Prithvi-I", 
-    type: "Surface-to-Surface", 
-    range: 150, 
-    warhead: "1,000 kg (conventional or nuclear)", 
-    propulsion: "Single-stage liquid-fuel", 
-    guidance: "INS", 
-    launchPlatforms: "Mobile launchers", 
-    users: "Indian Army", 
-    developedBy: "DRDO", 
-    notes: "Tactical ballistic missile." 
-  },
   { 
     name: "Prithvi-I", 
     type: "Surface-to-Surface", 
