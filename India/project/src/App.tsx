@@ -51,6 +51,7 @@ function App() {
           activeMapElements={activeMapElements}
           onMapClick={handleMapClick}
           onMarkerRemove={handleMarkerRemove}
+          onClearAllMarkers={handleClearAllMarkers}
         />
       </div>
     </div>
