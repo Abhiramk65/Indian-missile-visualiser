@@ -230,7 +230,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
         {/* Clear All Markers Button - Mobile Only */}
         <button
           onClick={onClearAllMarkers}
-          className="absolute bottom-4 left-4 bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded font-medium z-[1000] md:hidden"
+          className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded font-medium z-[1000] md:hidden"
           aria-label="Clear all markers"
         >
           Clear All Markers
