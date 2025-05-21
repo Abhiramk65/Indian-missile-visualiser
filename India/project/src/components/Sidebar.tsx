@@ -142,7 +142,7 @@ const Sidebar: React.FC<SidebarProps> = ({
         
         <button 
           onClick={onClearAllMarkers}
-          className="w-full bg-red-600 hover:bg-red-700 text-white py-3 px-4 rounded transition-colors duration-200 mt-4 font-medium flex items-center justify-center touch-manipulation"
+          className="w-full bg-red-600 hover:bg-red-700 text-white py-3 px-4 rounded transition-colors duration-200 mt-4 font-medium flex items-center justify-center touch-manipulation hidden md:flex"
         >
           Clear All Markers
         </button>
